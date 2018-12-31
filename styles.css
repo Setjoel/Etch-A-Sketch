@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-weight: bold;
+
+
+}
+
+
+.btn {
+    background-color: blueviolet;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.btn:active, .btn:visited {
+    background-color: brown;
+}
+
+#btnDiv {
+    text-align:center; 
+    background-color:aquamarine;
+    padding-top:50px; 
+    padding-bottom:20px;
+}
+
+#sketch_pad {
+    margin: auto; 
+    width:520px; 
+    height:520px; 
+    border:1px solid black; 
+    border-radius:5px;
+}
